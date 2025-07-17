@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wynolze Pharmaceuticals Pvt Ltd</title>
+  <meta name="description" content="Innovative pharmaceutical solutions for rare diseases and clinical diagnostics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0052CC;
+      --background: #FFFFFF;
+      --accent: #E5ECF4;
+      --text: #1A1A1A;
+      --font-main: 'Roboto', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-main);
+      background-color: var(--background);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--primary);
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+    }
+
+    nav a {
+      margin-left: 1rem;
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #0052CC, #3f87ff);
+      color: white;
+      padding: 6rem 2rem;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background: var(--accent);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 82, 204, 0.1);
+    }
+
+    .card h3 {
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      background: #f4f8fc;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    button {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0041a8;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeIn 1s ease-out forwards;
+      }
+
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Wynolze Pharma</h1>
+  <nav aria-label="Main navigation">
+    <a href="#about">About</a>
+    <a href="#diagnostics">Diagnostics</a>
+    <a href="#products">Products</a>
+    <a href="#manufacturing">Manufacturing</a>
+    <a href="#rd">R&D</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Precision Medicine for Rare Diseases</h2>
+  <p>Driving innovation in rare disease treatment and clinical diagnostics through research, science, and care.</p>
+</section>
+
+<section id="about" class="fade-in">
+  <h2>About Us</h2>
+  <p>Wynolze Pharmaceuticals Pvt Ltd is committed to pioneering therapeutic advancements in rare disease and clinical diagnostics. Our team of scientists and clinicians is dedicated to research that transforms lives through precision medicine and diagnostics.</p>
+</section>
+
+<section id="diagnostics" class="fade-in">
+  <h2>Clinical Diagnostic Services</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Genetic Sequencing</h3>
+      <p>Using NGS technology for accurate diagnosis of rare genetic disorders.</p>
+    </div>
+    <div class="card">
+      <h3>Biomarker Analysis</h3>
+      <p>Advanced ELISA and qPCR-based biomarker profiling.</p>
+    </div>
+    <div class="card">
+      <h3>Clinical Lab Services</h3>
+      <p>ISO-compliant labs offering rapid, reliable diagnostics with expert analysis.</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="products" class="fade-in">
+  <h2>Our Products</h2>
+  <p>Wynolze develops scientifically formulated Ayurvedic syrup medicines tailored for rare and chronic conditions, blending traditional herbal wisdom with modern pharmaceutical standards.</p>
+  <div class="grid">
+    <div class="card">
+      <h3>RespiraHerb™ Syrup</h3>
+      <p>Ayurvedic formulation for chronic respiratory disorders such as bronchial asthma and persistent cough. Contains Tulsi, Vasaka, and Yashtimadhu.</p>
+    </div>
+    <div class="card">
+      <h3>HeptaCare™ Syrup</h3>
+      <p>Liver health tonic formulated with Kalmegh, Bhumiamalaki, and Triphala — supports detoxification and improves liver enzyme function in rare metabolic syndromes.</p>
+    </div>
+    <div class="card">
+      <h3>NeuroCalm™ Syrup</h3>
+      <p>Herbal neurotonic for pediatric and neurological care — includes Brahmi, Shankhpushpi, and Jatamansi to enhance cognitive function and calm the nervous system.</p>
+    </div>
+    <div class="card">
+      <h3>Hriday G-One™ Syrup</h3>
+      <p>Supports heart health using Ayurvedic herbs such as Arjuna, Pushkarmool, and Guggulu. Helps manage cholesterol and improve cardiac efficiency.</p>
+    </div>
+    <div class="card">
+      <h3>Brain Booster™ Syrup</h3>
+      <p>A potent nootropic syrup with Brahmi, Shankhpushpi, and Mandukaparni — improves memory, mental alertness, and neurological balance.</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="manufacturing" class="fade-in">
+  <h2>Manufacturing Capabilities</h2>
+  <p>Our GMP-certified facilities manufacture a range of rare disease medicines and syrups with high-precision cleanroom protocols and automated quality control systems.</p>
+</section>
+
+<section id="rd" class="fade-in">
+  <h2>Research & Development</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Pipeline Innovations</h3>
+      <p>Focused R&D on metabolic and pediatric rare diseases.</p>
+    </div>
+    <div class="card">
+      <h3>Collaborative Studies</h3>
+      <p>Working with academic and clinical institutions for co-discovery.</p>
+    </div>
+    <div class="card">
+      <h3>AI-driven Drug Discovery</h3>
+      <p>Using machine learning to accelerate molecule screening and testing.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="fade-in">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" name="name" placeholder="Your Name" aria-label="Your Name" required />
+    <input type="email" name="email" placeholder="Email Address" aria-label="Email Address" required />
+    <textarea name="message" rows="4" placeholder="Your Message" aria-label="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Wynolze Pharmaceuticals Pvt Ltd. All rights reserved. | GMP & ISO Certified | SSL Secured</p>
+</footer>
+
+<script>
+  // Animate fade-in on scroll
+  const faders = document.querySelectorAll('.fade-in');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  faders.forEach(fade => observer.observe(fade));
+</script>
+
+</body>
+</html>
